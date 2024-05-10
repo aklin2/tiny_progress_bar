@@ -2,6 +2,8 @@
 
 Progress Bar for Python 3. Does not use any external libraries and the code is very very tiny.
 
+![Example gif](./example.gif)
+
 # How to use
 
 Import the `progress_bar` function into your script.

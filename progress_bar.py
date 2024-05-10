@@ -62,15 +62,3 @@ def progress_bar(array: Iterable, bar_length: Characters = 50) -> Iterable:
     # Clean up
     sys.stdout.write("\n")
     sys.stdout.flush()
-
-
-if __name__ == "__main__":
-    from time import sleep
-
-    array = list(range(0, 10))
-    count = 0
-    for i in progress_bar(array, 10):
-        sleep(0.01)
-        count += i
-    print(count)
-    print(sum(array))

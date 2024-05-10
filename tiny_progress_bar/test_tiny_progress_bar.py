@@ -1,6 +1,6 @@
 import pytest
 import re
-from progress_bar import progress_bar as pb
+from tiny_progress_bar import progress_bar as pb
 
 
 class TestProgressBar:

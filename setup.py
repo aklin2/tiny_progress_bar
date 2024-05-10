@@ -7,7 +7,7 @@ try:
 except (IOError, ImportError):
     long_description = open("README.md").read()
 
-version = "0.1.3"
+version = "0.1.4"
 
 setup(
     name="tiny_progress_bar",  # How you named your package folder (MyLib)
@@ -20,7 +20,7 @@ setup(
     author="Alan Lin",  # Type in your name
     author_email="lin.alan.k@gmail.com",  # Type in your E-Mail
     url="https://github.com/aklin2/tiny_progress_bar",  # Provide either the link to your github or to your website
-    download_url="https://github.com/aklin2/tiny_progress_bar/archive/refs/tags/v0.1.3.tar.gz",  # I explain this later on
+    download_url="https://github.com/aklin2/tiny_progress_bar/archive/refs/tags/v0.1.4.tar.gz",  # I explain this later on
     keywords=[
         "progress",
         "progress bar",

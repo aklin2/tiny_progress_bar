@@ -4,6 +4,14 @@ Progress Bar for Python 3. Does not use any external libraries and the code is v
 
 ![Example gif](./example.gif)
 
+# Installation
+
+Simply use `pip`!
+
+`pip install tiny-progress-bar`
+
+https://pypi.org/project/tiny-progress-bar/
+
 # How to use
 
 Import the `progress_bar` function into your script.

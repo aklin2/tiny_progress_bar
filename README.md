@@ -1,8 +1,6 @@
-# progress_bar
+# tiny_progress_bar
 
 Progress Bar for Python 3. Does not use any external libraries and the code is very very tiny.
-
-![Example gif](./example.gif)
 
 # How to use
 
@@ -13,7 +11,7 @@ Then wrap any iterable with it. Then you'll see it running.
 ### Example:
 
 ```
-from progress_bar import progress_bar as pb
+from tiny_progress_bar import progress_bar as pb
 from time import sleep
 
 array = range(10)
@@ -56,4 +54,4 @@ for _ in pb(array, bar_length=length):
 
 A test file is included in this package.
 
-Feel free to run `pytest` or `pytest test_progress_bar.py`
+Feel free to run `pytest` or `pytest test_tiny_progress_bar.py`

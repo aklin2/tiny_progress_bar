@@ -24,7 +24,7 @@ setup(
     # Provide either the link to your github or to your website
     url="https://github.com/aklin2/tiny_progress_bar",
     # I explain this later on
-    download_url="https://github.com/aklin2/tiny_progress_bar/archive/refs/tags/v0.1.5.tar.gz",
+    download_url="https://github.com/aklin2/tiny_progress_bar/archive/refs/tags/v0.1.6.tar.gz",
     keywords=[
         "progress",
         "progress bar",
